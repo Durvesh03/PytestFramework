@@ -1,0 +1,27 @@
+1. Open Git bash by right click in project location.
+To initiate empty git local repository:
+--> git init
+
+2. Create new repository wit same name as that of pycharm project in github and get the URL-->
+https://github.com/Durvesh03/PytestFramework.git
+
+3. To connect local git repository to github repository(global) -->
+git remote add origin https://github.com/Durvesh03/PytestFramework.git(Path of github repo)
+
+
+Before doing commit fist time we need to execute below 2 commands :
+git config --global user.name "Durvesh"
+git config --global user.email "durvesh.tambe3@gmail.com"
+
+4. Check the status of commit --->(This will show all non commited files in red color else in green if commited. this is optional command)
+git status 
+
+5. Add files to staging area.---->
+git add -A
+
+6. Commit the code into git repo (local)---->
+git commit "first commit"     (comment is mandatory)
+
+
+7. Push the code from git to git hub repo (global) --->
+git push -u origin master
