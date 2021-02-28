@@ -25,3 +25,6 @@ git commit "first commit"     (comment is mandatory)
 
 7. Push the code from git to git hub repo (global) --->
 git push -u origin master
+
+8. To pull the changes in local git repo from global github repo ---->
+git pull
