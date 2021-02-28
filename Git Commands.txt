@@ -28,3 +28,12 @@ git push -u origin master
 
 8. To pull the changes in local git repo from global github repo ---->
 git pull
+
+for 2nd round of PUSH run following commands :
+git status (optional)
+git add -A (Adding to staging area)
+git commit -m "comment"
+git push -u origin master
+
+git pull (Pull all files from github to local)
+
